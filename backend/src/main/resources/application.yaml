@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mtg-vault-backend
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    open-in-view: false
