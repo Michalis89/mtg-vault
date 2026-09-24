@@ -2,7 +2,42 @@
 # IntelliJ IDEA
 # =========================
 .idea/
+*.iws
 *.iml
+*.ipr
+
+
+# =========================
+# Java / Maven
+# =========================
+target/
+
+
+# =========================
+# Eclipse / STS
+# =========================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+
+# =========================
+# NetBeans
+# =========================
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+
+# =========================
+# VS Code
+# =========================
+.vscode/
 
 
 # =========================
@@ -14,16 +49,11 @@ dist/
 
 
 # =========================
-# Java / Maven
-# =========================
-target/
-
-
-# =========================
 # Environment variables
 # =========================
 .env
 .env.local
+.env.*.local
 
 
 # =========================
